@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone_Momentum</title>
+    <!-- style.css -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800&family=Hahmlet:wght@300;400;500;600&family=Merriweather:wght@300;400&family=Michroma&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- 날씨 -->
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- 시계 -->
+        <h2 id="clock">00:00:00</h2>
+
+
+        <!-- login -->
+        <form class="login_form hidden">
+            <input required maxlength="10" type="text" placeholder="who are you?"/>
+        </form>
+
+
+        <h1 id="greeting" class="hidden"></h1>
+
+        <!-- 투두리스트 -->
+        <div class="todo_wrapper">
+            <form id="todo_form">
+                <input type="text" placeholder="what's your plan today?">
+            </form>
+            <ul id="todo_list">
+            </ul>
+        </div>
+
+
+
+        <!-- 명언 -->
+        <div class="quote_wrapper">
+            <span></span>
+            <span></span>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+    <!-- JS -->
+    <script src="js/name.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js" type="module"></script>
+    <script src="js/values.js" type="module"></script>
+</body>
+</html>

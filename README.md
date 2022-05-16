@@ -7,6 +7,7 @@
 - **목적** : JavaScript 복습 및 기초 확인을 위해 참가.
 - **프로젝트 기간** : 2022.02.06 - 2022.02.17
 - **메인 개발 환경** : Html / CSS / JavaScript
+- **배포** : [Clone_Momentum](https://kaydan95.github.io/Clone_Momentum/)
 
 ## Features / 특징..?
 
